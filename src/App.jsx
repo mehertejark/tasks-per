@@ -4,13 +4,14 @@ import { getDatabase, ref, onValue, set } from "https://www.gstatic.com/firebase
 
 // ── Firebase Configuration ────────────────────────────────────────────────────
 const firebaseConfig = {
-  apiKey: "AIzaSyBVpMBkOaUI11kZOM9AQjFafqwTPkQjj-c",
-  authDomain: "tasks-personal-e6012.firebaseapp.com",
-  databaseURL: "https://tasks-personal-e6012-default-rtdb.firebaseio.com",
-  projectId: "tasks-personal-e6012",
-  storageBucket: "tasks-personal-e6012.firebasestorage.app",
-  messagingSenderId: "880930311660",
-  appId: "1:880930311660:web:72a0f34767e68aafd104c9",
+  apiKey: "AIzaSyDyf_UKbsECW06ijzTOXjhiz-j-8dTNTPw",
+  authDomain: "tasks-personal-f0750.firebaseapp.com",
+  databaseURL: "https://tasks-personal-f0750-default-rtdb.asia-southeast1.firebasedatabase.app",
+  projectId: "tasks-personal-f0750",
+  storageBucket: "tasks-personal-f0750.firebasestorage.app",
+  messagingSenderId: "506702046718",
+  appId: "1:506702046718:web:26d109558f3860782e8caf",
+  measurementId: "G-0PDDS1E5MK"
 };
 
 const firebaseApp = initializeApp(firebaseConfig);
