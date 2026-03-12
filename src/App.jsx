@@ -13,6 +13,7 @@ const firebaseConfig = {
   appId: "1:880930311660:web:72a0f34767e68aafd104c9",
 };
 
+
 const firebaseApp = initializeApp(firebaseConfig);
 const db = getDatabase(firebaseApp);
 const DATA_REF = ref(db, "tasks-data");
